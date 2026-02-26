@@ -1,0 +1,19 @@
+# Proteus Backup Folder
+simulation/Project Backups/
+
+# Proteus Backup Files
+*.pdsbak
+*.tmp
+*.log
+
+# Arduino Compiled Files
+*.hex
+*.elf
+*.eep
+
+# VS Code Settings
+.vscode/
+
+# OS Files
+Thumbs.db
+.DS_Store
