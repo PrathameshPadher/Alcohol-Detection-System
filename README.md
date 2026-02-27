@@ -3,9 +3,17 @@
 ## 📌 Project Overview
 This project is an Arduino-based Alcohol Detection and Engine Shutdown System developed during my Diploma Internship.
 
-The system detects alcohol using the MQ-3 sensor and automatically shuts down the engine if alcohol is detected. The project was simulated using Proteus 8 Professional to demonstrate real-time working.
+The system detects alcohol using the MQ-3 sensor and automatically disables the engine ignition system if alcohol is detected in the driver's breath.
 
-This project focuses on improving vehicle safety by preventing drunk driving.
+The complete system was designed and simulated using Proteus 8 Professional to demonstrate real-time embedded system behavior.
+
+This project aims to improve vehicle safety and reduce accidents caused by drunk driving.
+
+---
+
+## ❗ Problem Statement
+Drunk driving is one of the major causes of road accidents.  
+This system ensures that a vehicle cannot operate if alcohol is detected, enhancing road safety through embedded system automation.
 
 ---
 
@@ -46,6 +54,17 @@ This project focuses on improving vehicle safety by preventing drunk driving.
 
 ---
 
+## 🔌 Pin Configuration
+
+| Component        | Arduino Pin |
+|------------------|------------|
+| MQ-3 Sensor      | D7         |
+| Green LED        | D5         |
+| Red LED          | D6         |
+| LCD (RS, EN, D4-D7) | 13,12,11,10,9,8 |
+
+---
+
 ## 📂 Project Structure
 Alcohol_Detection_System/
 │
@@ -65,17 +84,18 @@ Alcohol_Detection_System/
 ## 🚀 Key Features
 - Real-time alcohol detection
 - Automatic engine shutdown logic
-- LCD status display
+- LCD status monitoring
 - Visual indication using LEDs
-- Fully simulated embedded system in Proteus
+- Embedded system simulation using Proteus
+- Internship-based hardware-software integration project
 
 ---
 
 ## 🎯 Applications
 - Vehicle safety systems
-- Anti-drunk driving mechanism
-- Embedded systems safety projects
-- Educational simulation projects
+- Anti-drunk driving prevention
+- Automotive embedded safety solutions
+- Educational embedded system demonstrations
 
 ---
 
@@ -83,12 +103,13 @@ Alcohol_Detection_System/
 **Prathamesh**  
 Diploma Engineering Student  
 
-This project was developed during my internship as part of an embedded systems safety solution using Arduino and Proteus simulation.
+This project was developed during my internship as part of an embedded systems safety solution using Arduino-based C++ programming and Proteus simulation.
 
 ---
 
 ## 📌 Future Improvements
-- GSM alert system
-- GPS tracking
-- IoT-based monitoring dashboard
+- GSM alert notification system
+- GPS-based vehicle tracking
+- IoT-based remote monitoring dashboard
 - AI-based driver monitoring system
+- Real hardware prototype implementation
